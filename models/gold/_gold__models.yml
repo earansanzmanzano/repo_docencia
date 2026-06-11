@@ -12,4 +12,5 @@ models:
                 severity: warn 
                 warn_if: ">0"
                 error_if: ">100"
+                store_failures: true
           - not_null
